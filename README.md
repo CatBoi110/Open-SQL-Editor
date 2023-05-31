@@ -1,1 +1,1 @@
-# OpenSQLTableEditor
+# Open-SQL-Editor
