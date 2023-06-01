@@ -1,0 +1,33 @@
+.Table{
+    margin-top: 15px;
+    color: #415a77;
+    border: 5px white solid;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #195ead5d;
+    border-radius: 5px;
+    overflow-y: auto;
+    display: block;
+    max-height: 75%;
+    min-width: 500px;
+    min-height: 500px;
+    table-layout: auto;
+    width: fit-content;
+}
+
+
+.Input-Box{
+    font-size: 2em;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Input-Field{
+    color: black;
+
+}
