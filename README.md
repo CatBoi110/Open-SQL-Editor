@@ -1,6 +1,6 @@
 # Open-SQL-Editor
 
-## **What this program is about?**
+## **What is this program is about?**
 Open SQL Editor is a graphical SQL table viewer and modifier. It allows the user to edit, delete, and view records in SQL tables. Currently the program supports MySQL and Microsoft Azure SQL, with more backends to be added in the future.
 
 ## **Features**
@@ -10,6 +10,10 @@ Open SQL Editor is a graphical SQL table viewer and modifier. It allows the user
 
 ## **How to install**
   Ensure you are running either Windows 10 or Linux on your machine.
+  
+  Download one of the following ODBC connectors for SQL.
+  - MySQL: ```https://dev.mysql.com/doc/connector-odbc/en/```
+  - MS Azure: ```https://learn.microsoft.com/en-us/sql/connect/python/pyodbc/step-1-configure-development-environment-for-pyodbc-python-development?view=sql-server-ver16```
   
   Select one of the options to download and run the program:
   
@@ -42,7 +46,8 @@ Then type in a terminal or command line ```python app.py``` to start the program
 ![Screenshot_20230602_140646](https://github.com/CatBoi110/Open-SQL-Editor/assets/91166833/4f0e9e2a-c725-4741-aa7b-71eecfd5a7b9)
 Firefox
 
-
+![Screenshot_20230602_150600](https://github.com/CatBoi110/Open-SQL-Editor/assets/91166833/c0c6703e-8de8-4856-9578-70c5e748f598)
+Chrome/Chromium
 
 
 ## Know Limitations
