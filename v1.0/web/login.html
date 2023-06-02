@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href = "css/shared.css" rel = "stylesheet">
+    <link href = "css/login.css" rel = "stylesheet">
+    <link rel = "shortcut icon" type = "image/x-icon" href = "icon.ico">
+    
+    <title>Login</title>
+</head>
+    <header>
+        <ul class = "Navigation-Bar">
+            <li class = "Nav-Item"><a href = "table.html"> Table </a></li>
+            <li class = "Nav-Item Current-Page"><a href = "login.html"> Login </a></li>
+            <li class = "Nav-Item"><a href = "credits.html"> Credits </a></li>
+        </ul>
+
+        <h1 class = "Section-Title"> Open SQL Table Editor v1.0</h1>
+        <h3> <a href = "https://github.com/CatBoi110" target="_blank" rel = "noopener"> Github.com/CatBoi110 </a> </h3>
+    </header>
+    <body>
+        <h2 class = "Section-Title"> Login </h2>
+        
+        <div class = "Container">
+            <select id = "Backend-Dropdown" class = "Dropdown" onchange = "populateInputFields()">
+                <option selected> Select a SQL Backend </option>
+                <option> MySQL </option>
+                <option> MS Azure </option>
+            </select>
+        </div>
+
+
+        <button class = "Button" id = "Submit" style = "font-size: 2rem; visibility: hidden;"> Submit </button>
+    </body>
+
+    <script src = "/eel.js" type = "text/javascript"></script>
+    <script src = "js/login.js" type = "text/javascript"></script>
+</html>
