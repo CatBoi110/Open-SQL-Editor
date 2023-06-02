@@ -1,0 +1,101 @@
+* {
+    font-family: monospace;
+    color: #D0CFCF;
+    font-weight: 600;
+}
+
+header{
+    text-align: center;
+    border-bottom: 5px white solid;
+}
+
+body{
+    background-color: #415a77;
+}
+
+.Large-Text{
+    font-size: 1.25em;
+}
+
+.Small-Text{
+    font-size: 0.75em;
+}
+
+.Current-Page{
+    background-color: rgba(0, 0, 139, 0.342);
+}
+
+.Section-Title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.Navigation-Bar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: solid white 3px;
+    border-right: solid white 3px;
+    border-radius: 3px;
+    background-color: #195ead5d;
+}
+
+.Nav-Item{
+    display: inline-block;
+    font-size: 2em;
+    padding: 3px;
+    word-spacing: 0px;
+}
+
+.Nav-Item a{
+    text-decoration: none;
+}
+
+.Nav-Item:hover{
+    background-color: gray;
+    transition: 0.1s;
+}
+
+.Button{
+    text-align: center;
+    font-family: inherit;
+    font-weight: inherit;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin:5px;
+    background-color: #195ead5d;
+}
+
+
+.Button:hover{
+    background-color: gray;
+    transition: 0.1s;
+}
+
+.Button:active{
+    background-color: #251f479f;
+}
+
+.Dropdown{
+    color: black;
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+option {
+    color: black;
+}
+
+.Container {
+    text-align: center;
+    background-color: #195ead5d;
+    border: 3px solid black;
+    padding: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
