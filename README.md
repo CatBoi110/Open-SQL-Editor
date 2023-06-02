@@ -9,10 +9,11 @@ Open SQL Editor is a graphical SQL table viewer and modifier. It allows the user
   3. Delete records in a table
 
 ## **How to install**
-  Ensure you are running either Windows 10 or Linux on your machine.
+  Ensure you are running either Windows 10 or Linux on your computer.
   
-  Download one of the following ODBC connectors for SQL.
+  Download one of the following ODBC connectors for SQL:
   - MySQL: ```https://dev.mysql.com/doc/connector-odbc/en/```
+  
   - MS Azure: ```https://learn.microsoft.com/en-us/sql/connect/python/pyodbc/step-1-configure-development-environment-for-pyodbc-python-development?view=sql-server-ver16```
   
   Select one of the options to download and run the program:
@@ -51,8 +52,15 @@ Chrome/Chromium
 
 
 ## Know Limitations
-
-
-
+- Some tables may not function correctly with certain arangements of key fields
+- The edit function will not function for tables that lack a key field
+- Web browser may not see program running and will display an error message. (To fix this press the 'Reload' button until the program appears)
+- Large tables may be difficult to view and may require the screen to be zoomed out.
 
 ## Acknowledgments
+Libraries Used:
+- Pyodbc: ```https://pypi.org/project/pyodbc```
+- Eel: ```https://pypi.org/project/Eel```
+- Dotenv: ```https://pypi.org/project/python-dotenv```
+- Passlib: ``` https://pypi.org/project/passlib```
+- Pyinstaller: ```https://pypi.org/project/pyinstaller```
