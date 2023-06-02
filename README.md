@@ -15,7 +15,7 @@ Open SQL Editor is a graphical SQL table viewer and modifier. It allows the user
   
   - Download and run a prebuilt executable from the releases tab (Recommended)
      
-  - Download and run from source files
+  - Download and run source files from the ```Open-SQL-Editor-Files``` Folder
   
 ### Run from Executable 
 Download the executable for your system.
