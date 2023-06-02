@@ -40,3 +40,14 @@ Then type in a terminal or command line ```python app.py``` to start the program
 
 
 ![Screenshot_20230602_140646](https://github.com/CatBoi110/Open-SQL-Editor/assets/91166833/4f0e9e2a-c725-4741-aa7b-71eecfd5a7b9)
+Firefox
+
+
+
+
+## Know Limitations
+
+
+
+
+## Acknowledgments
