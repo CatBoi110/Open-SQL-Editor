@@ -34,7 +34,7 @@ To run from source, ensure you have installed the following:
 - Dotenv: ```pip install python-dotenv```
 - Passlib: ```pip install passlib```
 
-Then type in a terminal or command line ```python app.py``` to start the program. This will open a GUI window in your default web-browser of choice.
+Then type in a terminal or command line ```python app.py``` to start the program. This will open a GUI window in your default web browser of choice.
 
 ## Screenshots
 
