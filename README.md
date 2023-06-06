@@ -17,9 +17,9 @@ For any questions or concerns please contact me at **https://github.com/CatBoi11
   **Ensure you are running either Windows 10 or Linux on your computer.**
   
   **Download one of the following ODBC connectors for SQL:**
-  - MySQL: ```https://dev.mysql.com/doc/connector-odbc/en/```
+  - MySQL: [MySQL ODBC](https://dev.mysql.com/doc/connector-odbc/en/)
   
-  - MS Azure: ```https://learn.microsoft.com/en-us/sql/connect/python/pyodbc/step-1-configure-development-environment-for-pyodbc-python-development?view=sql-server-ver16```
+  - MS Azure: [MS Azure ODBC](https://learn.microsoft.com/en-us/sql/connect/python/pyodbc/step-1-configure-development-environment-for-pyodbc-python-development?view=sql-server-ver16)
   
   **Select one of the options to download and run the program:**
   
